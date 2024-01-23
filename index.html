@@ -97,9 +97,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14
 			<button class="menu-toggle" aria-controls="primary-menu" data-menu="primary-menu" aria-expanded="false">
 				<span class="button-menu">Menu</span>
 			</button>
-			<div id="primary-menu" class="menu"><ul>
-<li class="page_item page-item-2"><a href="/sample-page/">Sample Page</a></li>
-</ul></div>
+			<div id="primary-menu" class="menu"></div>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
 
@@ -133,31 +131,30 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14
 
 
 <aside id="secondary" class="widget-area">
-	<section id="block-3" class="widget widget_block"><div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow"><div class="wp-block-group__inner-container">
+	<section id="block-3" class="widget widget_block">
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow"><div class="wp-block-group__inner-container">
 <h2 class="wp-block-heading">Recent Posts</h2>
+
+
 <ul class="wp-block-latest-posts__list wp-block-latest-posts"></ul>
-</div></div></section><section id="block-10" class="widget widget_block"><p><br>
+</div></div>
+</section><section id="block-10" class="widget widget_block"><p><br>
 <br>
 </p>
 <br>
-    <title>Chat GPT</title>
+  <title>ClippyChat</title>
 <br>
-    <script src="/ChatGPT.js?v=15"></script><br>
+  <script src="/ChatGPT.js?v=15"></script><br>
 <br>
 
 <div id="idContainer">
-        <textarea id="txtOutput" rows="10" style="margin-top: 10px; 
-         width: 100%;" placeholder="Output"></textarea>
+<p>        <textarea id="txtMsg" rows="5" wrap="soft" style="width: 98%;
+         margin-top: 10px" placeholder="You"></textarea></p>
+<p>        <textarea id="txtOutput" rows="10" style="margin-top: 10px;
+         width: 98%;" placeholder="Clippy"></textarea></p>
 <div>
-            <button type="button" onclick="Send()" id="btnSend">Send</button><br>
-            <label id="lblSpeak"><input id="chkSpeak" type="checkbox" onclick="SpeechToText()">Listen</label><br>
-            <label id="lblMute"><input id="chkMute" type="checkbox" onclick="Mute(this.checked)">Mute</label>
-<p>            <select id="selModel"><option value="text-davinci-003">text-davinci-003</option>
-<option value="text-davinci-002">text-davinci-002</option>
-<option value="code-davinci-002">code-davinci-002</option>
-<option value="gpt-3.5-turbo">gpt-3.5-turbo</option>
-<option value="gpt-3.5-turbo-0301">gpt-3.5-turbo-0301</option></select></p>
-<p>            <select id="selLang" onchange="ChangeLang(this)"><option value="en-US">English (United States)</option>
+    <button type="button" onclick="Send()" id="btnSend">Send</button>
+<p>    <select id="selLang" onchange="ChangeLang(this)"><option value="en-US">English (United States)</option>
 <option value="fr-FR">French (France)</option>
 <option value="ru-RU">Russian (Russia)</option>
 <option value="pt-BR">Portuguese (Brazil)</option>
@@ -166,12 +163,9 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14
 <option value="it-IT">Italian (Italy)</option>
 <option value="pl-PL">Polish (Poland)</option>
 <option value="nl-NL">Dutch (Netherlands)</option></select></p>
-<p>            <select id="selVoices"></select><br>
-            <span id="spMsg"></span>
-        </p>
+<p>    <span id="spMsg"></span>
+  </p>
 </div>
-<p>        <textarea id="txtMsg" rows="5" wrap="soft" style="width: 98%; 
-         margin-left: 3px; margin-top: 6px" placeholder="Input Text"></textarea></p>
 <div id="idText"></div>
 </div>
 <p><br>
@@ -183,9 +177,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14
 
 	<footer id="colophon" class="site-footer">
 		<div class="my-site-cp"><p>&copy;2024 James Harris</p></div>		<nav id="footer-navigation" class="sub-navigation">
-			<div id="secondary-menu" class="menu"><ul>
-<li class="page_item page-item-2"><a href="/sample-page/">Sample Page</a></li>
-</ul></div>
+			<div id="secondary-menu" class="menu"></div>
 		</nav><!-- #site-navigation -->
 				<div class="site-info">
 			<span class="tf analog-powered">Powered by <a href="https://wordpress.org/">WordPress</a></span><span class="tf sep">//</span><span class="tf analog-theme-credits">Theme <strong>AnaLog</strong> by <a href="https://www.iljester.com/">Il Jester</a></span><span class="tf sep">//</span><span class="tf gototop"><a href="#">Top <span class="barw">&barwedge;</span></a></span>		</div>
