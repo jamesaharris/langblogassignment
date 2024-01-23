@@ -151,14 +151,50 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14
 
 
 <aside id="secondary" class="widget-area">
-	<section id="block-2" class="widget widget_block widget_search"><form role="search" method="get" action="http://clippyblog.local/" class="wp-block-search__button-outside wp-block-search__text-button wp-block-search">
-<label class="wp-block-search__label" for="wp-block-search__input-1">Search</label><div class="wp-block-search__inside-wrapper ">
-<input class="wp-block-search__input" id="wp-block-search__input-1" placeholder="" value="" type="search" name="s" required><button aria-label="Search" class="wp-block-search__button wp-element-button" type="submit">Search</button>
-</div>
-</form></section><section id="block-3" class="widget widget_block"><div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow"><div class="wp-block-group__inner-container">
+	<section id="block-3" class="widget widget_block"><div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow"><div class="wp-block-group__inner-container">
 <h2 class="wp-block-heading">Recent Posts</h2>
 <ul class="wp-block-latest-posts__list wp-block-latest-posts"></ul>
-</div></div></section></aside><!-- #secondary -->
+</div></div></section><section id="block-10" class="widget widget_block"><p><br>
+<br>
+</p>
+<br>
+    <title>Chat GPT</title>
+<br>
+    <script src="/sample-page/ChatGPT.js?v=15"></script><br>
+<br>
+
+<div id="idContainer">
+        <textarea id="txtOutput" rows="10" style="margin-top: 10px; 
+         width: 100%;" placeholder="Output"></textarea>
+<div>
+            <button type="button" onclick="Send()" id="btnSend">Send</button><br>
+            <label id="lblSpeak"><input id="chkSpeak" type="checkbox" onclick="SpeechToText()">Listen</label><br>
+            <label id="lblMute"><input id="chkMute" type="checkbox" onclick="Mute(this.checked)">Mute</label>
+<p>            <select id="selModel"><option value="text-davinci-003">text-davinci-003</option>
+<option value="text-davinci-002">text-davinci-002</option>
+<option value="code-davinci-002">code-davinci-002</option>
+<option value="gpt-3.5-turbo">gpt-3.5-turbo</option>
+<option value="gpt-3.5-turbo-0301">gpt-3.5-turbo-0301</option></select></p>
+<p>            <select id="selLang" onchange="ChangeLang(this)"><option value="en-US">English (United States)</option>
+<option value="fr-FR">French (France)</option>
+<option value="ru-RU">Russian (Russia)</option>
+<option value="pt-BR">Portuguese (Brazil)</option>
+<option value="es-ES">Spanish (Spain)</option>
+<option value="de-DE">German (Germany)</option>
+<option value="it-IT">Italian (Italy)</option>
+<option value="pl-PL">Polish (Poland)</option>
+<option value="nl-NL">Dutch (Netherlands)</option></select></p>
+<p>            <select id="selVoices"></select><br>
+            <span id="spMsg"></span>
+        </p>
+</div>
+<p>        <textarea id="txtMsg" rows="5" wrap="soft" style="width: 98%; 
+         margin-left: 3px; margin-top: 6px" placeholder="Input Text"></textarea></p>
+<div id="idText"></div>
+</div>
+<p><br>
+</p>
+</section></aside><!-- #secondary -->
 
 	</div>
 <!-- #content -->
@@ -178,6 +214,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14
 
 <script type="text/javascript" src="/wp-content/themes/analog/js/menu-nav.js?ver=1.0" id="analog-menu-nav-js"></script>
 <script type="text/javascript" src="/wp-content/themes/analog/js/skip-link-focus-fix.js?ver=20151215" id="analog-skip-link-focus-fix-js"></script>
+
 
 </body>
 </html>
