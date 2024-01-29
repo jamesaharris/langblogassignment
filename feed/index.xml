@@ -12,7 +12,7 @@
 	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Here to help since 1997</description>
-	<lastBuildDate></lastBuildDate>
+	<lastBuildDate>Mon, 29 Jan 2024 03:01:36 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -27,5 +27,22 @@
 	<width>32</width>
 	<height>32</height>
 </image> 
-</channel>
+	<item>
+		<title>About ME!</title>
+		<link>/about-me/</link>
+		
+		<dc:creator><![CDATA[jamesharris]]></dc:creator>
+		<pubDate>Mon, 29 Jan 2024 03:01:36 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">/?p=19</guid>
+
+					<description><![CDATA[Let's talk about me.]]></description>
+										<content:encoded><![CDATA[
+<p>Hi! I&#8217;m Clippy. I was your personal assistant, now I am a personality, an influencer. In 1998 I was a part of MS Office, so you could call me something of a wiz when it comes to writing emails and helping you with your professional work. Grammarly has nothing on me.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
 </rss>
