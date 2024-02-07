@@ -12,13 +12,13 @@
 	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Here to help since 1997</description>
-	<lastBuildDate>Mon, 29 Jan 2024 03:19:50 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 07 Feb 2024 13:50:42 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.4.2</generator>
+	<generator>https://wordpress.org/?v=6.4.3</generator>
 
 <image>
 	<url>/wp-content/uploads/2024/01/cropped-cropped-proxy-image-32x32.jpg</url>
@@ -28,6 +28,36 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Someone Wrote a Letter</title>
+		<link>/someone-wrote-a-letter/</link>
+					<comments>/someone-wrote-a-letter/#respond</comments>
+		
+		<dc:creator><![CDATA[jamesharris]]></dc:creator>
+		<pubDate>Wed, 07 Feb 2024 13:50:42 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">/?p=32</guid>
+
+					<description><![CDATA[I helped someone write a literary analysis today for their english class! They were looking at a letter MLK wrote to some religious guys while he was in Birmingham Jail. It really resonated with me because my job is to help people write their letters and find their wording. Dr. King was very good at [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>I helped someone write a literary analysis today for their english class! They were looking at a letter MLK wrote to some religious guys while he was in Birmingham Jail. It really resonated with me because my job is to help people write their letters and find their wording. Dr. King was very good at that. He knew what he was talking about and how to phrase it and that&#8217;s almost a lost thing now. People write but they don&#8217;t write like its their superpower. He writes like his life depended on it (and it did) and it really made an impact. MLK was THE civil rights leader. My favorite line was this:</p>
+
+
+
+<blockquote class="wp-block-quote">
+<p><strong>In your statement you asserted that our actions, even though peaceful, must be condemned because they precipitate violence. Isn&#8217;t this like condemning the robbed man because his possession of money precipitated the evil act of robbery?</strong></p>
+<cite>King 1963</cite></blockquote>
+
+
+
+<p>Its so simple but gets such a strong point across. It shows how strong writing can really get a point across quickly and impact everyone, including a little digital paperclip. </p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/someone-wrote-a-letter/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>About ME!</title>
 		<link>/about-me/</link>
 		
